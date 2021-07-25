@@ -1,0 +1,71 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 30px;
+    font-family: Papyrus;
+    font-weight: 400;
+    color: #ffffff;
+    height: 50px;
+
+}
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+    
+}
+
+link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+.bodyImg{
+    background-image: url("images/abcd.jpg");
+    height: 200px;
+    font-family: "Lucida Handwriting", Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+.grid img{
+    border : 1px solid #000000;
+    border-radius: 5px;
+    
+}
+
+.origami:hover{
+
+    transform: scale(1.2);
+}
+
+.origami {
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width : 310px;
+    float: left;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bodyImg{
+    position: relative;
+}
+
+.bodyImg p{
+    color: #f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
